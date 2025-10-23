@@ -1,4 +1,4 @@
-import { Building2, Wrench, Hammer, HardHat, Crane, PaintBucket, Zap, Droplet } from 'lucide-react';
+import { Building2, Wrench, Hammer, HardHat, Crane, PaintBucket, Zap, Droplets } from 'lucide-react';
 
 export const mockData = {
   navigation: [
