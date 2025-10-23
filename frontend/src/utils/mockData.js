@@ -18,7 +18,7 @@ export const mockData = {
       description: 'Gestão completa de projetos de construção, desde o planeamento até à conclusão, garantindo qualidade e cumprimento de prazos.'
     },
     {
-      icon: Crane,
+      icon: Construction,
       title: 'Infraestruturas Paisagísticas',
       description: 'Construção e reparação de infraestruturas paisagísticas, incluindo jardins, caminhos e áreas de lazer.'
     },
