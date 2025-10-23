@@ -533,9 +533,9 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <img 
-                src="https://customer-assets.emergentagent.com/job_9a8e2655-a06f-4b1c-a3ec-6bc8dfb29b27/artifacts/jfwex01a_Somar%20Dista%CC%82ncias%20Lda.%20Logo.png" 
+                src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/ce95eaqi_ChatGPT%20Image%20Oct%2023%2C%202025%2C%2003_18_10%20PM.png" 
                 alt="Somar Distâncias Logo" 
-                className="h-12 mb-4 brightness-0 invert"
+                className="h-16 mb-4"
               />
               <p className="text-gray-400 text-sm leading-relaxed">
                 Construindo o futuro com qualidade e compromisso há mais de 13 anos.
