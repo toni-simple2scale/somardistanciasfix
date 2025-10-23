@@ -38,7 +38,7 @@ export const mockData = {
       description: 'Instalações elétricas completas, seguindo todas as normas de segurança e qualidade.'
     },
     {
-      icon: Droplet,
+      icon: Droplets,
       title: 'Canalizações',
       description: 'Sistemas de canalização para água, esgotos e gás, com materiais de primeira qualidade.'
     },
