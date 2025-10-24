@@ -1,0 +1,11 @@
+# robots.txt para Somar Distâncias
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://somardistancias.pt/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
