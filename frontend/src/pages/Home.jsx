@@ -165,7 +165,7 @@ const Home = () => {
                 Empresa de Construção Civil em <span className="text-orange-600">Lisboa</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Construção de edifícios, moradias e remodelações em Lisboa e Loures. 
+                Construção de edifícios, moradias e remodelações em Lisboa e arredores. 
                 13 anos de experiência em obras de construção civil. Da fundação ao acabamento, 
                 transformamos os seus projetos em realidade com qualidade e compromisso.
               </p>
