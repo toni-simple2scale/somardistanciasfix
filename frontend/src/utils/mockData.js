@@ -69,7 +69,12 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/5em51wck_Moradia-7.jpg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/9z0qk9h5_Moradia-8.jpg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fxfzb2of_Moradia-9.jpg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/45ahst9x_Moradia-10.jpg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/45ahst9x_Moradia-10.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fk7q9fi3_Moradia-11.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/lcpf0ovp_Moradia-12.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cmro41gz_Moradia-13.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/dvt7x31r_Moradia-14.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/pfeve7fl_Moradia-15.jpg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg'
     },
