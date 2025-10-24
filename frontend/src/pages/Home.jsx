@@ -162,10 +162,11 @@ const Home = () => {
                 13 Anos de Experiência
               </div>
               <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Construímos o Futuro, <span className="text-orange-600">Hoje</span>
+                Empresa de Construção Civil em <span className="text-orange-600">Lisboa</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Soluções completas em construção e gestão de edifícios. Da fundação ao acabamento, 
+                Construção de edifícios, moradias e remodelações em Lisboa e Loures. 
+                13 anos de experiência em obras de construção civil. Da fundação ao acabamento, 
                 transformamos os seus projetos em realidade com qualidade e compromisso.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
