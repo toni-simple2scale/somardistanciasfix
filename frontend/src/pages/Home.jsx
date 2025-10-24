@@ -511,6 +511,9 @@ const Home = () => {
             <div className="bg-gray-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Envie-nos uma Mensagem</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
+                {/* Honeypot field for spam protection */}
+                <input type="checkbox" name="botcheck" className="hidden" style={{ display: 'none' }} />
+                
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Nome Completo *</label>
                   <Input
