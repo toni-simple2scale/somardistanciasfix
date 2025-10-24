@@ -46,16 +46,41 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Handle form submission (mock)
-  const handleSubmit = (e) => {
+  // Handle form submission with Web3Forms
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate form submission
-    setTimeout(() => {
-      alert('Mensagem enviada com sucesso! Entraremos em contacto em breve.');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+
+    const formDataToSend = new FormData();
+    formDataToSend.append('access_key', '13c50548-837d-47a3-a340-ca829ddd6e8e');
+    formDataToSend.append('name', formData.name);
+    formDataToSend.append('email', formData.email);
+    formDataToSend.append('phone', formData.phone || 'Não fornecido');
+    formDataToSend.append('message', formData.message);
+    formDataToSend.append('from_name', 'Website Somar Distâncias');
+    formDataToSend.append('subject', 'Nova Mensagem do Website - Somar Distâncias');
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataToSend
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        alert('✅ Mensagem enviada com sucesso! Entraremos em contacto em breve.');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      } else {
+        alert('❌ Erro ao enviar mensagem. Por favor, tente novamente ou contacte-nos diretamente.');
+        console.error('Erro Web3Forms:', data);
+      }
+    } catch (error) {
+      alert('❌ Erro ao enviar mensagem. Por favor, tente novamente ou contacte-nos diretamente.');
+      console.error('Erro ao enviar:', error);
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
