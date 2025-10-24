@@ -136,8 +136,8 @@ export const mockData = {
       answer: 'Sim, todos os nossos trabalhos têm garantia. A duração da garantia varia consoante o tipo de serviço prestado. Utilizamos sempre materiais de qualidade e seguimos as melhores práticas de construção para assegurar a durabilidade dos nossos projetos.'
     },
     {
-      question: 'É possível alugar equipamentos sem operador?',
-      answer: 'Sim, oferecemos serviço de aluguer de máquinas e equipamentos para construção (escavadoras, gruas, andaimes e plataformas) sem operador. Entre em contacto para conhecer as condições e disponibilidade.'
+      question: 'Os equipamentos alugados incluem operador?',
+      answer: 'Sim, todo o aluguer de máquinas e equipamentos para construção (escavadoras, gruas, andaimes e plataformas) inclui operador qualificado. Garantimos profissionais experientes para operar os equipamentos com segurança. Entre em contacto para conhecer as condições e disponibilidade.'
     },
   ],
 };
