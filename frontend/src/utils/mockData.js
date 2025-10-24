@@ -50,7 +50,7 @@ export const mockData = {
     {
       icon: Wrench,
       title: 'Aluguer de Equipamentos',
-      description: 'Aluguer de máquinas e equipamentos para construção: escavadoras, gruas, andaimes e plataformas.'
+      description: 'Aluguer de máquinas e equipamentos para construção com condutor incluído: escavadoras, gruas, andaimes e plataformas.'
     },
   ],
 
