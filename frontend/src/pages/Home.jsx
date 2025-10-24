@@ -609,8 +609,7 @@ const Home = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Horário de Funcionamento</p>
-                      <p className="text-gray-600">Segunda a Sexta: 08:00 - 18:00</p>
-                      <p className="text-gray-600">Sábado: 09:00 - 13:00</p>
+                      <p className="text-gray-600">Segunda a Sexta: 09:00 - 17:00</p>
                     </div>
                   </div>
                 </div>
