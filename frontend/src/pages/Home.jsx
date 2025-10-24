@@ -533,7 +533,7 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <img 
-                src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/ce95eaqi_ChatGPT%20Image%20Oct%2023%2C%202025%2C%2003_18_10%20PM.png" 
+                src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/mdrgrfh2_LOGO%20SOMAR%20DISTANCIAS.png" 
                 alt="Somar Distâncias Logo" 
                 className="h-16 mb-4"
               />
