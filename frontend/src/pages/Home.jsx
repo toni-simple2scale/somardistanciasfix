@@ -65,7 +65,7 @@ const Home = () => {
             {/* Logo */}
             <div className="flex items-center space-x-3">
               <img 
-                src="https://customer-assets.emergentagent.com/job_9a8e2655-a06f-4b1c-a3ec-6bc8dfb29b27/artifacts/jfwex01a_Somar%20Dista%CC%82ncias%20Lda.%20Logo.png" 
+                src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/mdrgrfh2_LOGO%20SOMAR%20DISTANCIAS.png" 
                 alt="Somar Distâncias Logo" 
                 className="h-12 w-auto"
               />
