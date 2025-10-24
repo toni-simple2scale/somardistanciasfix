@@ -63,7 +63,10 @@ const Home = () => {
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        body: formDataToSend
+        body: formDataToSend,
+        headers: {
+          'Accept': 'application/json'
+        }
       });
 
       const data = await response.json();
