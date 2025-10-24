@@ -56,10 +56,17 @@ export const mockData = {
 
   portfolio: [
     {
-      title: 'Edifício Residencial - Torres Modernas',
-      location: 'Loures, Portugal',
+      title: 'Edifício Residencial',
+      location: 'Lisboa, Portugal',
       description: 'Construção completa de edifício residencial com acabamentos premium.',
-      image: 'https://images.unsplash.com/photo-1679858158659-944fdbd745a7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
+      images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/8sj13hq4_Moradia-2.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mp6xoco8_Moradia-3.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/oicktmfk_Moradia-4.jpg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/8wl0rmta_Moradia-5.jpg'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg'
     },
     {
       title: 'Complexo Comercial Contemporâneo',
