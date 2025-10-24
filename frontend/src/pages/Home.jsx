@@ -239,7 +239,7 @@ const Home = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {mockData.portfolio.map((project, index) => (
-              <div key={index} className="group cursor-pointer">
+              <div key={index} className="group cursor-pointer" onClick={() => { setSelectedProject(project); setSelectedImageIndex(0); }}>
                 <div className="relative overflow-hidden rounded-xl shadow-lg">
                   <img
                     src={project.image}
@@ -250,6 +250,9 @@ const Home = () => {
                     <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                       <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                       <p className="text-sm text-gray-200">{project.description}</p>
+                      {project.images && project.images.length > 1 && (
+                        <p className="text-xs mt-2 text-orange-300">📷 {project.images.length} fotos</p>
+                      )}
                     </div>
                   </div>
                 </div>
@@ -262,6 +265,76 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Image Gallery Modal */}
+      {selectedProject && (
+        <div className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4" onClick={() => setSelectedProject(null)}>
+          <button
+            onClick={() => setSelectedProject(null)}
+            className="absolute top-4 right-4 text-white hover:text-orange-400 transition-colors z-10"
+          >
+            <X size={32} />
+          </button>
+          
+          <div className="max-w-6xl w-full" onClick={(e) => e.stopPropagation()}>
+            {/* Main Image */}
+            <div className="relative">
+              <img
+                src={selectedProject.images ? selectedProject.images[selectedImageIndex] : selectedProject.image}
+                alt={`${selectedProject.title} - Imagem ${selectedImageIndex + 1}`}
+                className="w-full h-auto max-h-[70vh] object-contain rounded-lg"
+              />
+              
+              {/* Navigation Arrows */}
+              {selectedProject.images && selectedProject.images.length > 1 && (
+                <>
+                  <button
+                    onClick={() => setSelectedImageIndex((selectedImageIndex - 1 + selectedProject.images.length) % selectedProject.images.length)}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-3 rounded-full transition-all"
+                  >
+                    <ChevronLeft size={28} />
+                  </button>
+                  <button
+                    onClick={() => setSelectedImageIndex((selectedImageIndex + 1) % selectedProject.images.length)}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm text-white p-3 rounded-full transition-all"
+                  >
+                    <ChevronRight size={28} />
+                  </button>
+                </>
+              )}
+            </div>
+            
+            {/* Project Info */}
+            <div className="mt-6 text-white text-center">
+              <h3 className="text-2xl font-bold mb-2">{selectedProject.title}</h3>
+              <p className="text-orange-400 mb-2">{selectedProject.location}</p>
+              <p className="text-gray-300">{selectedProject.description}</p>
+              {selectedProject.images && selectedProject.images.length > 1 && (
+                <p className="text-sm text-gray-400 mt-2">Imagem {selectedImageIndex + 1} de {selectedProject.images.length}</p>
+              )}
+            </div>
+            
+            {/* Thumbnail Gallery */}
+            {selectedProject.images && selectedProject.images.length > 1 && (
+              <div className="flex gap-3 mt-6 overflow-x-auto pb-2 justify-center">
+                {selectedProject.images.map((img, idx) => (
+                  <img
+                    key={idx}
+                    src={img}
+                    alt={`Miniatura ${idx + 1}`}
+                    onClick={() => setSelectedImageIndex(idx)}
+                    className={`h-20 w-28 object-cover rounded-lg cursor-pointer transition-all ${
+                      idx === selectedImageIndex 
+                        ? 'ring-4 ring-orange-500 opacity-100' 
+                        : 'opacity-50 hover:opacity-75'
+                    }`}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Testimonials Section */}
       <section id="testemunhos" className="py-20 bg-gradient-to-br from-orange-50 via-blue-50 to-green-50">
