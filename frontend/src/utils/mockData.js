@@ -117,7 +117,7 @@ export const mockData = {
   faqs: [
     {
       question: 'Que tipo de projetos realizam?',
-      answer: 'Realizamos todo o tipo de projetos de construção, desde habitações particulares a edifícios comerciais e industriais. Os nossos serviços incluem gestão e construção de edifícios, infraestruturas paisagísticas, demolições, fundações, instalações elétricas, canalizações, acabamentos e aluguer de equipamentos.'
+      answer: 'Realizamos todo o tipo de projetos de construção, desde habitações particulares a edifícios comerciais e industriais. Os nossos serviços incluem gestão e construção de edifícios, infraestruturas paisagísticas, demolições, fundações, instalações elétricas, canalizações, acabamentos e aluguer de equipamentos com operador.'
     },
     {
       question: 'Fornecem orçamentos gratuitos?',
