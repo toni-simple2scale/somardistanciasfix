@@ -486,7 +486,7 @@ const Home = () => {
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-blue-600 mb-2">200+</div>
-                <div className="text-gray-600">Projetos Concluídos</div>
+                <div className="text-gray-600">Projetos Realizados</div>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-green-600 mb-2">150+</div>
