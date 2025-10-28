@@ -132,11 +132,12 @@ export const mockData = {
       title: 'Edifício Residencial',
       location: 'Lisboa, Portugal',
       description: 'Projeto de construção de edifício residencial de luxo com múltiplos pisos e acabamentos premium.',
-      client: 'A definir',
+      client: 'Particular',
       status: 'Em andamento',
       images: [
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/bla5rznx_WhatsApp%20Image%202025-10-25%20at%2012.35.25.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qh8uhb3a_WhatsApp%20Image%202025-10-25%20at%2012.35.25%20%281%29.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qh8uhb3a_WhatsApp%20Image%202025-10-25%20at%2012.35.25%20%281%29.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/hjuskbre_WhatsApp%20Image%202025-10-25%20at%2013.31.11.jpeg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/bla5rznx_WhatsApp%20Image%202025-10-25%20at%2012.35.25.jpeg'
     },
