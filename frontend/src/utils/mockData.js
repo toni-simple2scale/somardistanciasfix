@@ -85,8 +85,14 @@ export const mockData = {
       location: 'Lisboa, Portugal',
       description: 'Projeto de construção de infraestrutura industrial para Modelstone, Lda.',
       client: 'Modelstone, Lda.',
-      images: ['https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'],
-      image: 'https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
+      images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/96xpdb5y_WhatsApp%20Image%202025-10-25%20at%2012.44.48.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/w89s8aef_WhatsApp%20Image%202025-10-25%20at%2012.44.53.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/omfvmlh0_WhatsApp%20Image%202025-10-25%20at%2012.44.54.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/4l5gtac9_WhatsApp%20Image%202025-10-25%20at%2012.46.37.jpeg'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
     },
     {
       title: 'Infraestrutura Industrial',
