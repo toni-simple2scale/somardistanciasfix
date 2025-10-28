@@ -639,7 +639,11 @@ const Home = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Email</p>
-                      <p className="text-gray-600">somardistancias8.geral@gmail.com</p>
+                      <p className="text-gray-600">
+                        <a href="mailto:somardistancias8.geral@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-600 transition-colors">
+                          somardistancias8.geral@gmail.com
+                        </a>
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
