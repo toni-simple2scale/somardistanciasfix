@@ -203,6 +203,8 @@ const Home = () => {
                   src="https://images.unsplash.com/photo-1599995903128-531fc7fb694b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwxfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85"
                   alt="Obra de Construção Profissional"
                   className="w-full h-full object-cover"
+                  loading="eager"
+                  fetchpriority="high"
                 />
               </div>
               {/* Floating Stats */}
