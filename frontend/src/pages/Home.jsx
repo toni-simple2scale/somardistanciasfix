@@ -187,14 +187,14 @@ const Home = () => {
                 </Button>
               </div>
               <div className="flex items-center gap-8 pt-4">
-                <div className="flex items-center gap-2">
+                <a href="tel:+351961313663" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                   <Phone className="text-orange-600" size={20} />
                   <span className="text-sm font-medium text-gray-700">+351 961 313 663</span>
-                </div>
-                <div className="flex items-center gap-2">
+                </a>
+                <a href="mailto:somardistancias8.geral@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                   <Mail className="text-blue-600" size={20} />
                   <span className="text-sm font-medium text-gray-700">somardistancias8.geral@gmail.com</span>
-                </div>
+                </a>
               </div>
             </div>
             <div className="relative">
