@@ -270,6 +270,16 @@ const Home = () => {
             {mockData.portfolio.map((project, index) => (
               <div key={index} className="group cursor-pointer" onClick={() => { setSelectedProject(project); setSelectedImageIndex(0); }}>
                 <div className="relative overflow-hidden rounded-xl shadow-lg">
+                  {/* Status Badge */}
+                  {project.status && (
+                    <div className={`absolute top-4 right-4 z-10 px-3 py-1 rounded-full text-xs font-semibold ${
+                      project.status === 'Concluído' 
+                        ? 'bg-green-500 text-white' 
+                        : 'bg-orange-500 text-white'
+                    }`}>
+                      {project.status}
+                    </div>
+                  )}
                   <img
                     src={project.image}
                     alt={project.title}
