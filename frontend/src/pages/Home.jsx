@@ -329,6 +329,8 @@ const Home = () => {
                 src={selectedProject.images ? selectedProject.images[selectedImageIndex] : selectedProject.image}
                 alt={`${selectedProject.title} - Imagem ${selectedImageIndex + 1}`}
                 className="w-full h-auto max-h-[70vh] object-contain rounded-lg"
+                loading="lazy"
+                decoding="async"
               />
               
               {/* Navigation Arrows */}
