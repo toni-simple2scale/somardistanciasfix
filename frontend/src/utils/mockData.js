@@ -81,9 +81,10 @@ export const mockData = {
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg'
     },
     {
-      title: 'Complexo Comercial Contemporâneo',
+      title: 'Complexo Industrial',
       location: 'Lisboa, Portugal',
-      description: 'Projeto de construção de espaço comercial com design moderno.',
+      description: 'Projeto de construção de infraestrutura industrial para Modelstone, Lda.',
+      client: 'Modelstone, Lda.',
       images: ['https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'],
       image: 'https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
     },
