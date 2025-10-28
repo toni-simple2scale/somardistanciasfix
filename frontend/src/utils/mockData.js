@@ -100,7 +100,7 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fbwev2oj_WhatsApp%20Image%202025-10-25%20at%2012.48.37.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qa1ltvn6_WhatsApp%20Image%202025-10-25%20at%2012.49.39.jpeg'
       ],
-      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/b3w23fn8_WhatsApp%20Image%202025-10-25%20at%2012.27.01.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
     },
     {
       title: 'Embelezamento Exterior',
