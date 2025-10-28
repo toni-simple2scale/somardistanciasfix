@@ -103,6 +103,7 @@ export const mockData = {
       title: 'Infraestrutura Industrial',
       location: 'Sintra, Portugal',
       description: 'Desenvolvimento de infraestrutura para zona industrial com equipamentos especializados.',
+      client: 'Construal, Lda.',
       images: ['https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'],
       image: 'https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'
     },
