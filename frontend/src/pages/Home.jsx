@@ -621,8 +621,16 @@ const Home = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900">Telefone</p>
-                      <p className="text-gray-600">+351 961 313 663</p>
-                      <p className="text-gray-600">+351 960 120 888</p>
+                      <p className="text-gray-600">
+                        <a href="tel:+351961313663" className="hover:text-orange-600 transition-colors">
+                          +351 961 313 663
+                        </a>
+                      </p>
+                      <p className="text-gray-600">
+                        <a href="tel:+351960120888" className="hover:text-orange-600 transition-colors">
+                          +351 960 120 888
+                        </a>
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
