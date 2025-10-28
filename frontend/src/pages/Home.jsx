@@ -473,8 +473,8 @@ const Home = () => {
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
                   Com <strong>13 anos de experiência em construção civil</strong>, a Somar Distâncias, Lda. 
-                  é uma <strong>empresa de construção em Lisboa</strong> especializada em 
-                  <strong>construção de edifícios, moradias e remodelações</strong>. 
+                  é uma <strong>empresa de construção em Lisboa</strong> especializada em{' '}
+                  <strong>construção de edifícios, moradias e remodelações</strong>.{' '}
                   Estabelecemo-nos como referência em qualidade e profissionalismo na Grande Lisboa.
                 </p>
                 <p>
