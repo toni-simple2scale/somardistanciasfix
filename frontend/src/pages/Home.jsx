@@ -348,7 +348,18 @@ const Home = () => {
             
             {/* Project Info */}
             <div className="mt-6 text-white text-center">
-              <h3 className="text-2xl font-bold mb-2">{selectedProject.title}</h3>
+              <div className="flex items-center justify-center gap-3 mb-2">
+                <h3 className="text-2xl font-bold">{selectedProject.title}</h3>
+                {selectedProject.status && (
+                  <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                    selectedProject.status === 'Concluído' 
+                      ? 'bg-green-500 text-white' 
+                      : 'bg-orange-500 text-white'
+                  }`}>
+                    {selectedProject.status}
+                  </span>
+                )}
+              </div>
               <p className="text-orange-400 mb-2">{selectedProject.location}</p>
               {selectedProject.client && (
                 <p className="text-blue-300 text-sm mb-2">Cliente: {selectedProject.client}</p>
