@@ -133,8 +133,11 @@ export const mockData = {
       description: 'Projeto de construção de edifício residencial de luxo com múltiplos pisos e acabamentos premium.',
       client: 'A definir',
       status: 'Em andamento',
-      images: ['https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'],
-      image: 'https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'
+      images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/bla5rznx_WhatsApp%20Image%202025-10-25%20at%2012.35.25.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qh8uhb3a_WhatsApp%20Image%202025-10-25%20at%2012.35.25%20%281%29.jpeg'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/bla5rznx_WhatsApp%20Image%202025-10-25%20at%2012.35.25.jpeg'
     },
   ],
 
