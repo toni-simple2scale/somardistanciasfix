@@ -57,7 +57,7 @@ export const mockData = {
   portfolio: [
     {
       title: 'Edifício Residencial',
-      location: 'Lisboa, Portugal',
+      location: 'Almargem do Bispo, Sintra',
       description: 'Construção completa de edifício residencial com acabamentos premium.',
       client: 'Particular',
       images: [
@@ -83,7 +83,7 @@ export const mockData = {
     },
     {
       title: 'Complexo Industrial',
-      location: 'Lisboa, Portugal',
+      location: 'Montelavar, Sintra',
       description: 'Projeto de construção de infraestrutura industrial para Modelstone, Lda.',
       client: 'Modelstone, Lda.',
       images: [
@@ -100,10 +100,29 @@ export const mockData = {
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
     },
     {
-      title: 'Infraestrutura Industrial',
-      location: 'Sintra, Portugal',
-      description: 'Desenvolvimento de infraestrutura para zona industrial com equipamentos especializados.',
+      title: 'Embelezamento Exterior',
+      location: 'Pêro Pinheiro, Sintra',
+      description: 'Projeto de embelezamento exterior com deck em madeira e acabamentos de alta qualidade.',
       client: 'Construal, Lda.',
+      images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg'
+    },
+    {
+      title: 'Pavilhão Industrial com Estrutura Metálica',
+      location: 'Lisboa, Portugal',
+      description: 'Construção de pavilhão industrial moderno com estrutura metálica robusta e acabamentos industriais.',
+      client: 'A definir',
+      images: ['https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'],
+      image: 'https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
+    },
+    {
+      title: 'Edifício Residencial',
+      location: 'Lisboa, Portugal',
+      description: 'Projeto de construção de edifício residencial de luxo com múltiplos pisos e acabamentos premium.',
+      client: 'A definir',
       images: ['https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'],
       image: 'https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'
     },
