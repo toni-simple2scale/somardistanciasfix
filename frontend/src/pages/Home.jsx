@@ -390,6 +390,8 @@ const Home = () => {
                         ? 'ring-4 ring-orange-500 opacity-100' 
                         : 'opacity-50 hover:opacity-75'
                     }`}
+                    loading="lazy"
+                    decoding="async"
                   />
                 ))}
               </div>
