@@ -91,7 +91,11 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/96xpdb5y_WhatsApp%20Image%202025-10-25%20at%2012.44.48.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/w89s8aef_WhatsApp%20Image%202025-10-25%20at%2012.44.53.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/omfvmlh0_WhatsApp%20Image%202025-10-25%20at%2012.44.54.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/4l5gtac9_WhatsApp%20Image%202025-10-25%20at%2012.46.37.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/4l5gtac9_WhatsApp%20Image%202025-10-25%20at%2012.46.37.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/g6ut9tmj_WhatsApp%20Image%202025-10-25%20at%2012.47.34.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/gysm37x4_WhatsApp%20Image%202025-10-25%20at%2012.47.34%20%281%29.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fbwev2oj_WhatsApp%20Image%202025-10-25%20at%2012.48.37.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qa1ltvn6_WhatsApp%20Image%202025-10-25%20at%2012.49.39.jpeg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
     },
