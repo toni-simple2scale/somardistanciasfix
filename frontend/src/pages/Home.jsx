@@ -473,14 +473,14 @@ const Home = () => {
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p className="text-lg">
                   Com <strong>13 anos de experiência em construção civil</strong>, a Somar Distâncias, Lda. 
-                  é uma <strong>empresa de construção em Lisboa e Loures</strong> especializada em 
+                  é uma <strong>empresa de construção em Lisboa</strong> especializada em 
                   <strong>construção de edifícios, moradias e remodelações</strong>. 
                   Estabelecemo-nos como referência em qualidade e profissionalismo na Grande Lisboa.
                 </p>
                 <p>
                   A nossa missão é transformar os sonhos dos nossos clientes em realidade, oferecendo 
                   <strong>soluções completas em construção civil</strong> desde a fundação até aos acabamentos finais. 
-                  Trabalhamos com empresas e particulares em <strong>Lisboa, Loures e arredores</strong>, 
+                  Trabalhamos com empresas e particulares em <strong>Lisboa e arredores</strong>, 
                   garantindo sempre a excelência em cada projeto de construção.
                 </p>
                 <p>
