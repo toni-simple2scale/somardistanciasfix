@@ -110,11 +110,7 @@ export const mockData = {
       status: 'Concluído',
       images: [
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/ur82rdui_WhatsApp%20Image%202025-10-25%20at%2012.41.00.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/es97lz3r_WhatsApp%20Image%202025-10-25%20at%2012.41.21.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/aangyio3_WhatsApp%20Image%202025-10-25%20at%2012.41.21%20%281%29.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg'
     },
@@ -124,8 +120,13 @@ export const mockData = {
       description: 'Construção de pavilhão industrial moderno com estrutura metálica robusta e acabamentos industriais.',
       client: 'A definir',
       status: 'Em andamento',
-      images: ['https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'],
-      image: 'https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
+      images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/ur82rdui_WhatsApp%20Image%202025-10-25%20at%2012.41.00.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/es97lz3r_WhatsApp%20Image%202025-10-25%20at%2012.41.21.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/aangyio3_WhatsApp%20Image%202025-10-25%20at%2012.41.21%20%281%29.jpeg'
+      ],
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg'
     },
     {
       title: 'Edifício Residencial',
