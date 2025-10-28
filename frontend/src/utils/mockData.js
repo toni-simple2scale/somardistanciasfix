@@ -60,6 +60,7 @@ export const mockData = {
       location: 'Almargem do Bispo, Sintra',
       description: 'Construção completa de edifício residencial com acabamentos premium.',
       client: 'Particular',
+      status: 'Concluído',
       images: [
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/8sj13hq4_Moradia-2.jpg',
@@ -86,7 +87,9 @@ export const mockData = {
       location: 'Montelavar, Sintra',
       description: 'Projeto de construção de infraestrutura industrial para Modelstone, Lda.',
       client: 'Modelstone, Lda.',
+      status: 'Concluído',
       images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/b3w23fn8_WhatsApp%20Image%202025-10-25%20at%2012.27.01.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/96xpdb5y_WhatsApp%20Image%202025-10-25%20at%2012.44.48.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/w89s8aef_WhatsApp%20Image%202025-10-25%20at%2012.44.53.jpeg',
@@ -97,24 +100,30 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fbwev2oj_WhatsApp%20Image%202025-10-25%20at%2012.48.37.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qa1ltvn6_WhatsApp%20Image%202025-10-25%20at%2012.49.39.jpeg'
       ],
-      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/b3w23fn8_WhatsApp%20Image%202025-10-25%20at%2012.27.01.jpeg'
     },
     {
       title: 'Embelezamento Exterior',
       location: 'Pêro Pinheiro, Sintra',
       description: 'Projeto de embelezamento exterior com deck em madeira e acabamentos de alta qualidade.',
       client: 'Construal, Lda.',
+      status: 'Concluído',
       images: [
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/ur82rdui_WhatsApp%20Image%202025-10-25%20at%2012.41.00.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/es97lz3r_WhatsApp%20Image%202025-10-25%20at%2012.41.21.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/aangyio3_WhatsApp%20Image%202025-10-25%20at%2012.41.21%20%281%29.jpeg'
       ],
-      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/mbec3ikq_WhatsApp%20Image%202025-10-25%20at%2012.46.04.jpeg'
+      image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/q0txvlad_WhatsApp%20Image%202025-10-25%20at%2012.46.08.jpeg'
     },
     {
       title: 'Pavilhão Industrial com Estrutura Metálica',
       location: 'Lisboa, Portugal',
       description: 'Construção de pavilhão industrial moderno com estrutura metálica robusta e acabamentos industriais.',
       client: 'A definir',
+      status: 'Em andamento',
       images: ['https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'],
       image: 'https://images.unsplash.com/photo-1572061971745-063e9cc83afc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzYxMjI4MDUxfDA&ixlib=rb-4.1.0&q=85'
     },
@@ -123,6 +132,7 @@ export const mockData = {
       location: 'Lisboa, Portugal',
       description: 'Projeto de construção de edifício residencial de luxo com múltiplos pisos e acabamentos premium.',
       client: 'A definir',
+      status: 'Em andamento',
       images: ['https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'],
       image: 'https://images.unsplash.com/photo-1517089152318-42ec560349c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxidWlsZGluZyUyMHNpdGV8ZW58MHx8fHwxNzYxMjI4MDYxfDA&ixlib=rb-4.1.0&q=85'
     },
