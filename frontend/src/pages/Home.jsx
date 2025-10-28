@@ -695,9 +695,21 @@ const Home = () => {
             <div>
               <h4 className="font-semibold text-lg mb-4">Contacto</h4>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li>+351 961 313 663</li>
-                <li>+351 960 120 888</li>
-                <li>somardistancias8.geral@gmail.com</li>
+                <li>
+                  <a href="tel:+351961313663" className="hover:text-orange-400 transition-colors">
+                    +351 961 313 663
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+351960120888" className="hover:text-orange-400 transition-colors">
+                    +351 960 120 888
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:somardistancias8.geral@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-400 transition-colors">
+                    somardistancias8.geral@gmail.com
+                  </a>
+                </li>
                 <li>2670-351 Loures, Portugal</li>
               </ul>
             </div>
