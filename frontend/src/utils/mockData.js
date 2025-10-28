@@ -59,6 +59,7 @@ export const mockData = {
       title: 'Edifício Residencial',
       location: 'Lisboa, Portugal',
       description: 'Construção completa de edifício residencial com acabamentos premium.',
+      client: 'Particular',
       images: [
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/cjr74efg_Moradia.jpg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/8sj13hq4_Moradia-2.jpg',
