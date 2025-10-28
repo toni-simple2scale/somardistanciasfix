@@ -259,7 +259,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Projetos <span className="text-orange-600">Concluídos</span>
+              Nossos <span className="text-orange-600">Projetos</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Exemplos do nosso trabalho e compromisso com a excelência
