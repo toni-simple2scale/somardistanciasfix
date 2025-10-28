@@ -337,6 +337,9 @@ const Home = () => {
             <div className="mt-6 text-white text-center">
               <h3 className="text-2xl font-bold mb-2">{selectedProject.title}</h3>
               <p className="text-orange-400 mb-2">{selectedProject.location}</p>
+              {selectedProject.client && (
+                <p className="text-blue-300 text-sm mb-2">Cliente: {selectedProject.client}</p>
+              )}
               <p className="text-gray-300">{selectedProject.description}</p>
               {selectedProject.images && selectedProject.images.length > 1 && (
                 <p className="text-sm text-gray-400 mt-2">Imagem {selectedImageIndex + 1} de {selectedProject.images.length}</p>
