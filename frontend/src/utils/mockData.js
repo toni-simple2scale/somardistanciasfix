@@ -124,7 +124,9 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/ur82rdui_WhatsApp%20Image%202025-10-25%20at%2012.41.00.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/es97lz3r_WhatsApp%20Image%202025-10-25%20at%2012.41.21.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/aangyio3_WhatsApp%20Image%202025-10-25%20at%2012.41.21%20%281%29.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/aangyio3_WhatsApp%20Image%202025-10-25%20at%2012.41.21%20%281%29.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/xt8do5uc_WhatsApp%20Image%202025-10-25%20at%2012.41.22.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/wvgssv0k_WhatsApp%20Image%202025-10-25%20at%2012.41.22%20%281%29.jpeg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/j7y5m45c_WhatsApp%20Image%202025-10-25%20at%2012.30.40.jpeg'
     },
