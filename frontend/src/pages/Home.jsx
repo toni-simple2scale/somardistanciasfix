@@ -692,6 +692,8 @@ const Home = () => {
                 src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/mdrgrfh2_LOGO%20SOMAR%20DISTANCIAS.png" 
                 alt="Somar Distâncias Logo" 
                 className="h-16 mb-4"
+                loading="lazy"
+                decoding="async"
               />
               <p className="text-gray-400 text-sm leading-relaxed">
                 Construindo o futuro com qualidade e compromisso há mais de 13 anos.
