@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, Wrench, Hammer, HardHat, Crane, PaintBucket, Zap, Phone, Mail, MapPin, Clock, Menu, X, MessageCircle, ChevronLeft, ChevronRight, XIcon } from 'lucide-react';
+import { Building2, Wrench, Hammer, HardHat, Crane, PaintBucket, Zap, Phone, Mail, MapPin, Clock, Menu, X, MessageCircle, ChevronLeft, ChevronRight, XIcon, CheckCircle2 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../components/ui/accordion';
 import { Input } from '../components/ui/input';
 import { Textarea } from '../components/ui/textarea';
 import { mockData } from '../utils/mockData';
+import { useIntersectionObserver, useCounter } from '../hooks/useIntersectionObserver';
+import ScrollProgressBar from '../components/ScrollProgressBar';
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
