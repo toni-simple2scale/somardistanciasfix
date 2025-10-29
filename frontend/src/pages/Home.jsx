@@ -539,24 +539,7 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-orange-600 mb-2">13+</div>
-                <div className="text-gray-600">Anos de Experiência</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">200+</div>
-                <div className="text-gray-600">Projetos Realizados</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-green-600 mb-2">150+</div>
-                <div className="text-gray-600">Clientes Satisfeitos</div>
-              </div>
-              <div className="bg-white p-6 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-orange-600 mb-2">100%</div>
-                <div className="text-gray-600">Compromisso</div>
-              </div>
-            </div>
+            <AnimatedStats />
           </div>
         </div>
       </section>
