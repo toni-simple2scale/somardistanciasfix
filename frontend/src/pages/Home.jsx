@@ -16,6 +16,7 @@ const Home = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [formValidation, setFormValidation] = useState({ name: false, email: false, message: false });
 
   // Smooth scroll to section
   const scrollToSection = (sectionId) => {
