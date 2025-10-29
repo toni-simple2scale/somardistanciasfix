@@ -583,25 +583,35 @@ const Home = () => {
                 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Nome Completo *</label>
-                  <Input
-                    type="text"
-                    required
-                    value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="O seu nome"
-                    className="w-full"
-                  />
+                  <div className="relative">
+                    <Input
+                      type="text"
+                      required
+                      value={formData.name}
+                      onChange={(e) => handleFormChange('name', e.target.value)}
+                      placeholder="O seu nome"
+                      className="w-full pr-10"
+                    />
+                    {formValidation.name && formData.name && (
+                      <CheckCircle2 className="absolute right-3 top-1/2 -translate-y-1/2 text-green-500" size={20} />
+                    )}
+                  </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Email *</label>
-                  <Input
-                    type="email"
-                    required
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="seuemail@exemplo.com"
-                    className="w-full"
-                  />
+                  <div className="relative">
+                    <Input
+                      type="email"
+                      required
+                      value={formData.email}
+                      onChange={(e) => handleFormChange('email', e.target.value)}
+                      placeholder="seuemail@exemplo.com"
+                      className="w-full pr-10"
+                    />
+                    {formValidation.email && formData.email && (
+                      <CheckCircle2 className="absolute right-3 top-1/2 -translate-y-1/2 text-green-500" size={20} />
+                    )}
+                  </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Telefone</label>
@@ -615,14 +625,19 @@ const Home = () => {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Mensagem *</label>
-                  <Textarea
-                    required
-                    value={formData.message}
-                    onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Descreva o seu projeto..."
-                    rows={5}
-                    className="w-full"
-                  />
+                  <div className="relative">
+                    <Textarea
+                      required
+                      value={formData.message}
+                      onChange={(e) => handleFormChange('message', e.target.value)}
+                      placeholder="Descreva o seu projeto..."
+                      rows={5}
+                      className="w-full pr-10"
+                    />
+                    {formValidation.message && formData.message && (
+                      <CheckCircle2 className="absolute right-3 top-3 text-green-500" size={20} />
+                    )}
+                  </div>
                 </div>
                 <Button 
                   type="submit" 
