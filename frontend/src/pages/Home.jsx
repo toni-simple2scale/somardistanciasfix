@@ -49,6 +49,21 @@ const Home = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Validate form fields
+  const validateField = (field, value) => {
+    if (field === 'email') {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(value);
+    }
+    return value.trim().length > 0;
+  };
+
+  // Handle form changes with validation
+  const handleFormChange = (field, value) => {
+    setFormData({ ...formData, [field]: value });
+    setFormValidation({ ...formValidation, [field]: validateField(field, value) });
+  };
+
   // Handle form submission with Web3Forms
   const handleSubmit = async (e) => {
     e.preventDefault();
