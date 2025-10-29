@@ -104,6 +104,35 @@ const Home = () => {
     }
   };
 
+  // Animated Stats Component
+  const AnimatedStats = () => {
+    const [ref, isVisible] = useIntersectionObserver();
+    const years = useCounter(13, 2000, isVisible);
+    const projects = useCounter(200, 2000, isVisible);
+    const clients = useCounter(150, 2000, isVisible);
+
+    return (
+      <div ref={ref} className="grid grid-cols-2 gap-6">
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center transform transition-all duration-700 hover:scale-105">
+          <div className="text-4xl font-bold text-orange-600 mb-2">{years}+</div>
+          <div className="text-gray-600">Anos de Experiência</div>
+        </div>
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center transform transition-all duration-700 hover:scale-105">
+          <div className="text-4xl font-bold text-blue-600 mb-2">{projects}+</div>
+          <div className="text-gray-600">Projetos Realizados</div>
+        </div>
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center transform transition-all duration-700 hover:scale-105">
+          <div className="text-4xl font-bold text-green-600 mb-2">{clients}+</div>
+          <div className="text-gray-600">Clientes Satisfeitos</div>
+        </div>
+        <div className="bg-white p-6 rounded-xl shadow-lg text-center transform transition-all duration-700 hover:scale-105">
+          <div className="text-4xl font-bold text-orange-600 mb-2">100%</div>
+          <div className="text-gray-600">Compromisso</div>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Scroll Progress Bar */}
