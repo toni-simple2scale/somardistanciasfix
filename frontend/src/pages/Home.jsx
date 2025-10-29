@@ -93,13 +93,17 @@ const Home = () => {
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center space-x-3">
+            <button 
+              onClick={() => scrollToSection('inicio')} 
+              className="flex items-center space-x-3 hover:opacity-80 transition-opacity cursor-pointer"
+              aria-label="Ir para o início"
+            >
               <img 
                 src="https://customer-assets.emergentagent.com/job_somarconst/artifacts/mdrgrfh2_LOGO%20SOMAR%20DISTANCIAS.png" 
                 alt="Somar Distâncias Logo" 
                 className="h-12 w-auto"
               />
-            </div>
+            </button>
 
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-8">
