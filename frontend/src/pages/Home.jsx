@@ -465,7 +465,8 @@ const Home = () => {
       {/* Testimonials Section */}
       <section id="testemunhos" className="py-20 bg-gradient-to-br from-orange-50 via-blue-50 to-green-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <FadeInSection>
+            <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
               O Que Dizem os Nossos <span className="text-orange-600">Clientes</span>
             </h2>
