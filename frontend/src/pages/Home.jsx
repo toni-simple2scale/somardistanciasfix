@@ -517,8 +517,10 @@ const Home = () => {
               Respostas às questões mais comuns sobre os nossos serviços
             </p>
           </div>
+          </FadeInSection>
 
-          <Accordion type="single" collapsible className="space-y-4">
+          <FadeInSection delay={200}>
+            <Accordion type="single" collapsible className="space-y-4">
             {mockData.faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
