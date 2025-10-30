@@ -317,18 +317,21 @@ const Home = () => {
       {/* Portfolio Section */}
       <section id="portfolio" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Os Nossos <span className="text-orange-600">Projetos</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Exemplos do nosso trabalho e compromisso com a excelência
-            </p>
-          </div>
+          <FadeInSection>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+                Os Nossos <span className="text-orange-600">Projetos</span>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Exemplos do nosso trabalho e compromisso com a excelência
+              </p>
+            </div>
+          </FadeInSection>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {mockData.portfolio.map((project, index) => (
-              <div key={index} className="group cursor-pointer" onClick={() => { setSelectedProject(project); setSelectedImageIndex(0); }}>
+              <FadeInSection key={index} delay={index * 100}>
+                <div className="group cursor-pointer" onClick={() => { setSelectedProject(project); setSelectedImageIndex(0); }}>
                 <div className="relative overflow-hidden rounded-xl shadow-lg">
                   {/* Status Badge */}
                   {project.status && (
