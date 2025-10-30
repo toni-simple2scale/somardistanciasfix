@@ -8,6 +8,7 @@ import { Textarea } from '../components/ui/textarea';
 import { mockData } from '../utils/mockData';
 import { useIntersectionObserver, useCounter } from '../hooks/useIntersectionObserver';
 import ScrollProgressBar from '../components/ScrollProgressBar';
+import FadeInSection from '../components/FadeInSection';
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
