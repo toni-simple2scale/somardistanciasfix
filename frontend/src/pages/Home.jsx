@@ -585,7 +585,10 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-            <AnimatedStats />
+            </FadeInSection>
+            <FadeInSection delay={200}>
+              <AnimatedStats />
+            </FadeInSection>
           </div>
         </div>
       </section>
@@ -593,7 +596,8 @@ const Home = () => {
       {/* Contact Section */}
       <section id="contactos" className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <FadeInSection>
+            <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
               Entre em <span className="text-orange-600">Contacto</span>
             </h2>
