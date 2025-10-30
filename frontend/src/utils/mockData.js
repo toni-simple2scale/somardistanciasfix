@@ -89,7 +89,6 @@ export const mockData = {
       client: 'Modelstone, Lda.',
       status: 'Concluído',
       images: [
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/b3w23fn8_WhatsApp%20Image%202025-10-25%20at%2012.27.01.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/96xpdb5y_WhatsApp%20Image%202025-10-25%20at%2012.44.48.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/w89s8aef_WhatsApp%20Image%202025-10-25%20at%2012.44.53.jpeg',
@@ -98,7 +97,8 @@ export const mockData = {
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/g6ut9tmj_WhatsApp%20Image%202025-10-25%20at%2012.47.34.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/gysm37x4_WhatsApp%20Image%202025-10-25%20at%2012.47.34%20%281%29.jpeg',
         'https://customer-assets.emergentagent.com/job_somarconst/artifacts/fbwev2oj_WhatsApp%20Image%202025-10-25%20at%2012.48.37.jpeg',
-        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qa1ltvn6_WhatsApp%20Image%202025-10-25%20at%2012.49.39.jpeg'
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/qa1ltvn6_WhatsApp%20Image%202025-10-25%20at%2012.49.39.jpeg',
+        'https://customer-assets.emergentagent.com/job_somarconst/artifacts/b3w23fn8_WhatsApp%20Image%202025-10-25%20at%2012.27.01.jpeg'
       ],
       image: 'https://customer-assets.emergentagent.com/job_somarconst/artifacts/peyml51c_WhatsApp%20Image%202025-10-25%20at%2012.44.45.jpeg'
     },
