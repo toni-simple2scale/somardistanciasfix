@@ -275,21 +275,23 @@ const Home = () => {
       {/* Services Section */}
       <section id="servicos" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
-              Os Nossos <span className="text-orange-600">Serviços</span>
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Oferecemos uma gama completa de serviços de construção para empresas e particulares
-            </p>
-          </div>
+          <FadeInSection>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">
+                Os Nossos <span className="text-orange-600">Serviços</span>
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                Oferecemos uma gama completa de serviços de construção para empresas e particulares
+              </p>
+            </div>
+          </FadeInSection>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {mockData.services.map((service, index) => (
-              <Card 
-                key={index} 
-                className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white"
-              >
+              <FadeInSection key={index} delay={index * 100}>
+                <Card 
+                  className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white h-full"
+                >
                 <CardHeader>
                   <div className={`w-14 h-14 rounded-lg flex items-center justify-center mb-4 ${
                     index % 3 === 0 ? 'bg-orange-100' : index % 3 === 1 ? 'bg-blue-100' : 'bg-green-100'
