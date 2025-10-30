@@ -536,6 +536,7 @@ const Home = () => {
               </AccordionItem>
             ))}
           </Accordion>
+          </FadeInSection>
         </div>
       </section>
 
