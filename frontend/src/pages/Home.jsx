@@ -474,10 +474,12 @@ const Home = () => {
               A satisfação dos nossos clientes é a nossa maior conquista
             </p>
           </div>
+          </FadeInSection>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {mockData.testimonials.map((testimonial, index) => (
-              <Card key={index} className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white">
+              <FadeInSection key={index} delay={index * 100}>
+                <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 bg-white h-full">
                 <CardContent className="pt-6">
                   <div className="flex items-center mb-4">
                     {[...Array(5)].map((_, i) => (
