@@ -544,7 +544,8 @@ const Home = () => {
       <section id="sobre" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <FadeInSection>
+              <div>
               <h2 className="text-3xl lg:text-5xl font-bold text-gray-900 mb-6">
                 Sobre a <span className="text-orange-600">Somar Distâncias</span>
               </h2>
