@@ -241,14 +241,14 @@ const Home = () => {
                   Ver Serviços
                 </Button>
               </div>
-              <div className="flex items-center gap-8 pt-4">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 pt-4">
                 <a href="tel:+351961313663" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                  <Phone className="text-orange-600" size={20} />
-                  <span className="text-sm font-medium text-gray-700">+351 961 313 663</span>
+                  <Phone className="text-orange-600 flex-shrink-0" size={20} />
+                  <span className="text-sm font-medium text-gray-700 whitespace-nowrap">+351 961 313 663</span>
                 </a>
                 <a href="mailto:somardistancias8.geral@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                  <Mail className="text-blue-600" size={20} />
-                  <span className="text-sm font-medium text-gray-700">somardistancias8.geral@gmail.com</span>
+                  <Mail className="text-blue-600 flex-shrink-0" size={20} />
+                  <span className="text-sm font-medium text-gray-700 break-all sm:break-normal">somardistancias8.geral@gmail.com</span>
                 </a>
               </div>
             </div>
