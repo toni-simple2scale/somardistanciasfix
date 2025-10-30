@@ -308,6 +308,7 @@ const Home = () => {
                   </CardDescription>
                 </CardContent>
               </Card>
+              </FadeInSection>
             ))}
           </div>
         </div>
