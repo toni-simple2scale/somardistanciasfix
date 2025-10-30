@@ -540,8 +540,8 @@ const Home = () => {
                   Estabelecemo-nos como referência em qualidade e profissionalismo na Grande Lisboa.
                 </p>
                 <p>
-                  A nossa missão é transformar os sonhos dos nossos clientes em realidade, oferecendo 
-                  <strong>soluções completas em construção civil</strong> desde a fundação até aos acabamentos finais. 
+                  A nossa missão é transformar os sonhos dos nossos clientes em realidade, oferecendo{' '}
+                  <strong>soluções completas em construção civil</strong> desde a fundação até aos acabamentos finais.{' '}
                   Trabalhamos com empresas e particulares em <strong>Lisboa e arredores</strong>, 
                   garantindo sempre a excelência em cada projeto de construção.
                 </p>
