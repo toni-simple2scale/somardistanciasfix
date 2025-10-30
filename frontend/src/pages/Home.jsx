@@ -207,7 +207,7 @@ const Home = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="inicio" className="pt-20 relative overflow-hidden">
+      <section id="inicio" className="pt-20 relative overflow-hidden animate-fade-in">
         <div className="absolute inset-0 bg-gradient-to-br from-orange-50 via-blue-50 to-green-50 opacity-50"></div>
         <div className="container mx-auto px-4 py-20 lg:py-32 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
