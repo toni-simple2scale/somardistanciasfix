@@ -368,6 +368,7 @@ const Home = () => {
                   )}
                 </div>
               </div>
+              </FadeInSection>
             ))}
           </div>
         </div>
